@@ -5,7 +5,7 @@ Vue.use(Vuex);
 //Vuex配置
 export default new Vuex.Store({
   state:{
-    domain:'http://test.example.com', //后台请求地址
+    domain:'http://', //后台请求地址
     userInfo:{//保存用户信息
       nick:null,
       ulevel:null,
